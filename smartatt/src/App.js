@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LandingPage from "./pages/Landing-Page/LandigPage";
-import Login from "./pages/Login-Page/LoginPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import LoginPage from "./pages/LoginPage/LoginPage";
 import Otp from "./pages/OTP/Otp";
 import SignUp from "./pages/Signup/SignUp";
 import LoginSuccess from "./pages/Success/Success";
@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/landingpage" element={<Landing-Page />} />
-          <Route path="/loginpage" element={<Login-page />} />
+          <Route path="/landingpage" element={<LandingPage />} />
+          <Route path="/loginpage" element={<LoginPage />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/otp" element={<Otp />} />
           <Route path="/verified" element={<Verified />} />

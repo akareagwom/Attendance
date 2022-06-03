@@ -15,7 +15,7 @@ const LandingPage = ()=> {
                     <div className="tag1">
                         <button className="getstarted" id="btn">
                             <Link className="tag" to="/login">Get Started</Link>
-                            </button>
+                        </button>
                     </div>
                 
             </div>
