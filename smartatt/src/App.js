@@ -5,6 +5,7 @@ import Otp from "./pages/OTP/Otp";
 import SignUp from "./pages/Signup/SignUp";
 import LoginSuccess from "./pages/Success/Success";
 import Verified from "./pages/Verification/Verification";
+import Contact from "./pages/contactpage/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/otp" element={<Otp />} />
           <Route path="/verified" element={<Verified />} />
           <Route path="/login_success" element={<LoginSuccess />} />
+          <Route path="/Contact"element={<Contact />} />
 
           
         </Routes>
