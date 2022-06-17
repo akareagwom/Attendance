@@ -1,0 +1,20 @@
+.cctv{
+    margin-left: 80rem;
+    margin-top: -350px;
+    /* border-radius: 10px; */
+    border-left: 1px solid black;
+    height: 650px;
+    width: 500px;
+    /* box-shadow: 10px 30px 40px rgb(241, 214, 214); */
+    /* margin-right: 5rem; */
+
+}
+.mee{
+    margin-left: 300px;
+    margin-top: -180px;
+    box-shadow: 0px 10px 30px rgb(247, 244, 244);
+    border-radius: 5px;
+}
+.leah{
+    width: 980px;
+}
