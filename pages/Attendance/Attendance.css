@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .attend{
+    margin-top: -48rem;
+    margin-left: 20rem;
+  }
+  .attendance{
+      display: inline-flex;
+      margin-top: 20px;
+      text-decoration: none;
+  }
+
+.attendance a{
+  text-decoration: none;
+}
+
+  /* .static:hover{
+    color: rgb(70, 70, 236);
+    cursor: pointer;
+    border-bottom: 9px solid rgb(117, 117, 247) ;
+  } */
+  .static{
+    text-decoration: none;
+    text-align: center;
+
+  }
+  p{
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  h2{
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  Link{
+    text-decoration: none;
+    font-size: 1em;
+  }
+  .list{
+    margin-left: -670px;
+    margin-top: 200px;
+    font-size: 25px;
+    box-shadow: 0px 10px 30px rgb(206, 205, 205);
+    width: 300px;
+    border-radius: 5px;
+
+  }
+  .list ul{
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  li{
+    margin-bottom: 20px;
+  }

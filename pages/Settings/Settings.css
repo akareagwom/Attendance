@@ -1,0 +1,54 @@
+.brain{
+    margin-top: 150px;
+    margin-left: 350px;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+}
+.brain button{
+    width: 150px;
+    height: 70px;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+.bank{
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 5px;margin-bottom: 30px;
+}
+.onit{
+    margin-top: -500px;
+    border: 1px solid black;
+    margin-left: 700px;
+    height: 500px;
+    border-radius: 5px;
+
+}
+
+.hundred{
+    margin-left: 570px;
+    margin-top: -110px;
+}
+.put{
+    margin-right: 350px;
+    margin-top: 350px;
+}
+.grace{
+    margin-left: 330px;
+    margin-top: -80px;
+    outline: none;
+}
+.grace button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(82, 120, 202);
+    border-radius: 5px;
+    border: 1px solid rgb(82, 120, 202);
+}
