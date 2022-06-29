@@ -5,7 +5,11 @@ import 'react-calendar/dist/Calendar.css';
 import {useState} from "react"
 import BarChart from "../barchart/BarChart";
 import {UserData} from '../data/Data';
+// import { PieData } from "../piechart/PieChart";
 import './Dashboard.css'
+// import { PieData } from "../data2/data2";
+// import PieChart from "../piechart/PieChart";
+// import { Pie} from 'react-chartjs-2';
 
 
 const Dashboard = () => {
@@ -24,8 +28,38 @@ const Dashboard = () => {
                 borderRadius: 4.5,
                
             },
-        ],
+        ],  
     });
+//     const [] = useState({
+        
+//    labels: PieData.map((data)=>data.month),
+//    datasets: 
+//        {
+//         label: PieData.map((data)=>data.userGain),
+//          data:[10,30,50,40,100],
+       
+// }
+
+        
+//     });
+    // const data = {
+    //     labels: [
+    //       'Red',
+    //       'Blue',
+    //       'Yellow'
+    //     ],
+    //     datasets: [{
+    //       label: 'My First Dataset',
+    //       data: [300, 50, 100],
+    //       backgroundColor: [
+    //         'rgb(255, 99, 132)',
+    //         'rgb(54, 162, 235)',
+    //         'rgb(255, 205, 86)'
+    //       ],
+    //       hoverOffset: 4
+    //     }]
+    //   };
+
 
 
     return ( 
@@ -38,37 +72,39 @@ const Dashboard = () => {
                 <BarChart chartData={newData}/>
                 </div>
                 </div >
-                <div className="cctv">
-                <Calendar value={value} onChange={onChange} />
-                </div>
                 <div className="mee">
                     <table className="leah">
                     <tr>
                         <th>Name</th>
                         <th>ID</th>
                         <th>School</th>
-                        {/* <th>Age</th>
-                        <th>Gender</th>
-                        <th>Email</th> */}
+                        <th>Date</th>
+                        <th>Time</th>
+                        {/* <th>Email</th> */}
                         </tr>
                         <tr>
                             <td> <img src="./avatar.png" alt="" srcset=""/> Weng Du</td>
                             <td>2345623569</td>
                             <td>FUT</td>
-                            {/* <td>26</td>
-                            <td>Male</td>
-                            <td>wengdu@gmail.com</td> */}
+                            <td>24th June</td>
+                            <td>8:00am</td>
+                            {/* <td>wengdu@gmail.com</td> */}
                         </tr>
                         <tr>
                             <td> <img src="./avatar.png" alt="" srcset="" /> Chun Li</td>
                             <td>1234567891</td>
                             <td>UJ</td>
-                            {/* <td>20</td>
-                            <td>Female</td>
-                            <td>chunli@gmail.com</td> */}
+                            <td>24th June</td>
+                            <td>9:30am</td>
+                            {/* <td>chunli@gmail.com</td> */}
                         </tr>
                     </table>
                 </div>
+                <div className="cctv">
+                <Calendar value={value} onChange={onChange} className='dollar' />
+                </div>
+                {/* <PieChart/> */}
+
             </div>
         </div>
      );

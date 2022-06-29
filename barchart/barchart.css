@@ -2,5 +2,12 @@
     width: 500px;
     height: 200px;
     margin-left: 400px;
-    margin-top: 70px;
+    margin-top: 80px;
 }
+ .pie{
+    width: 350px;
+    margin-left: 500px;
+    /* margin-top: 50px; */
+    padding-top: 10rem;
+
+} 
