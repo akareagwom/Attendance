@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.flow{
+    display: inline-flex;
+
+}
+.product{
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(219, 219, 219);
+    width: 200px;
+    height: 90px;
+    text-align: center;
+}
+.divide{
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgb(207, 207, 207);
+}
+.product a {
+    text-decoration: none;
+    color: black;
+}

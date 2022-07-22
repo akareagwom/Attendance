@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+.messege{
+    margin-left: 19.3rem;
+    margin-top: 90px;
+    width: 80%;
+    height: 500px;
+}
+
+.attendance a{
+    color: black;
+}
+td{
+    border-bottom:1px solid black;
+    
+}
+.messege {
+    border-radius: 5px;
+    box-shadow: 0px 10px 30px rgb(209, 207, 207);
+    
+}
+.messege td{
+    background-color: white;
+}
